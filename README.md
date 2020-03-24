@@ -1,1 +1,0 @@
-# rahti-training-exercises
