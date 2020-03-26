@@ -5,7 +5,7 @@ Pre-requisites: *Exercise 1*
 The following pod (probe.yaml) pod waits for 30 seconds, then creates the file `/tmp/alive`
 inside the container, then waits again for 30 seconds and deletes the file.
 
-*probe.yaml*
+*`probe.yaml`*
 ```yaml
 kind: Pod
 apiVersion: v1
@@ -33,7 +33,7 @@ spec:
   the file `/tmp/alive` exists.
 * Wait for 30 seconds before starting to check if the container is live.
 
-*answer.yaml*
+*`answer.yaml`*
 ```yaml
 kind: Pod
 apiVersion: v1

@@ -9,7 +9,7 @@ plaintext and submit them with `oc create -f ...`.
 
 * Create a `DeploymentConfig` that will spawn a pod running image `openshift/hello-openshift`. Name it `hello-openshift` and label it `app: hello-openshift`. Apply the same label `app: hello-openshift` to the pods to be spawned as well.
 
-dc.yaml
+*`dc.yaml`*
 ```yaml
 apiVersion: apps.openshift.io/v1
 kind: DeploymentConfig
@@ -77,8 +77,7 @@ pod/hello-openshift-1-gtt59   1/1       Running   0          21m
 
 * Create a Service object that will redirect traffic internally to the pod.
 
-  *service.yaml*
-
+  *`service.yaml`*
   ```yaml
   apiVersion: v1
   kind: Service
@@ -108,7 +107,7 @@ pod/hello-openshift-1-gtt59   1/1       Running   0          21m
   * Secure the route with TLS edge termination policy and redirect
     insecure traffic to the secure one.
 
-  *route.yaml*
+  *`route.yaml`*
   ```yaml
   apiVersion: route.openshift.io/v1
   kind: Route

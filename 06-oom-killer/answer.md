@@ -4,7 +4,7 @@ Create pod yaml-spec that runs the image `docker-registry.default.svc:5000/rahti
 
 Make sure that the container gets killed when it reserves over 50MB of memory.
 
-*answer.yaml*
+*`answer.yaml`*
 ```yaml
 apiVersion: v1
 kind: Pod
