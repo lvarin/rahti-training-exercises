@@ -65,7 +65,7 @@ Pre-requisites: *Exercise 1*
 
 * Run command `echo Hello, world!` inside container from image `alpine:edge`. Name the pod as `custom-hello-pod`:
 
-  `pod-custom.yaml`:
+  *`pod-custom.yaml`*:
   ```yaml
 
   kind: Pod
@@ -95,7 +95,7 @@ Pre-requisites: *Exercise 1*
 
 ## Sleeping pod
 
-*pod-sleep.yaml*
+*`pod-sleep.yaml`*
 ```yaml
 kind: Pod
 apiVersion: v1

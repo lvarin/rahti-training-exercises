@@ -6,6 +6,7 @@ Pre-requisites: *Exercise 1*.
 
 Create a BuildConfig inlining the following `Dockerfile` (do not be tempted to uncomment the `#RUN ...` lines yet)
 
+*`Dockerfile`*
 ```Dockerfile
 FROM nginx:mainline-alpine
 
@@ -37,6 +38,7 @@ $ cat Dockerfile | oc new-build my-openshift-nginx --dry-run -o yaml --allow-mis
 
 Fork `https://github.com/cscfi/rahti-httpd-ex` in GitHub. Add the following Dockerfile to your fork:
 
+*`Dockerfile`*
 ```Dockerfile
 FROM my-openshift-nginx:latest
 COPY ./ /usr/share/nginx/html/
@@ -56,6 +58,7 @@ Deploy the objects in `scaffolding.yaml` if it looks okay: `oc create -f scaffol
 
 The container `my-static-home` should be in a crash-loop right now. The lines starting with `#RUN ...` in the first Dockerfile should not have be commented out in the first place after all. The correct Dockerfile looks like be:
 
+*`Dockerfile`*
 ```Dockerfile
 FROM nginx:mainline-alpine
 

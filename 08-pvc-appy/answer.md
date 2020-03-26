@@ -16,6 +16,7 @@ This exercise comprises of three parts:
 
     First you need to create the PersistentVolumeClaim (PVC), you can use the CLI using:
 
+    *`pvc.yaml`*
     ```yaml
     apiVersion: v1
     kind: PersistentVolumeClaim
@@ -64,7 +65,7 @@ This exercise comprises of three parts:
     }
 
     ```
-   
+
     You can create the secret by using the command line interface:
 
     ```bash
