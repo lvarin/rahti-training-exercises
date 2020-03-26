@@ -6,7 +6,7 @@ Locate the project in the web console and verify that it exists using the `oc` t
 1. Log in to Rahti (at https://rahti.csc.fi:8443). Authorize command line
    session by clicking top right username → Copy Login Command:
 
-   ![Authorize CLI](rahti-training-exercises/01-login-auth-project/img/copy-login.png){ width=50% }
+   ![Authorize CLI](img/copy-login.png){ width=50% }
 
    And pasting the text to command line:
 
