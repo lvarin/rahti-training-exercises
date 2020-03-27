@@ -5,6 +5,7 @@ Pre-requisites: *Exercise 1, 2*
 ## Terminal session
 
 Open terminal session to your sleeping pod using the Rahti GUI console.
+**Hint** `oc rsh <your pod name>`
 
 * What is the user id? (`id -u`)
 * What is the group id? (`id -g`)
