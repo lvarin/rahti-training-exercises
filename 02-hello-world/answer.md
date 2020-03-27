@@ -6,7 +6,7 @@ Pre-requisites: *Exercise 1*
 
 * Run container image `hello-world` in a pod called hello-pod:
 
-  *`pod.yaml`*:
+  *`hello-world-pod.yaml`*:
 
   ```yaml
   kind: Pod
@@ -19,7 +19,7 @@ Pre-requisites: *Exercise 1*
       image: hello-world
   ```
   ```bash
-  oc create -f pod.yaml
+  oc create -f hello-world-pod.yaml
   ```
   
 * Get the standard output of the container. 
