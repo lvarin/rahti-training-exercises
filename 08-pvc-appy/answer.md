@@ -44,12 +44,13 @@ This exercise comprises of three parts:
     Copy the file to the volume:
 
     ```bash
-    $ oc rsh  dc/hello-flask-#######
+    # rsh to your hello-flask pod, get pod detail with oc get pods
+    $ oc rsh hello-flask-#######
     # cd /opt/app-root/src/static/
     # curl -L -O https://rahti-course-nov-2019.a3s.fi/kitten.jpg
     ```
 
-    Navigate to **<http://hello-flask-#-course-training-#.rahtiapp.fi/kitten>** and
+    Navigate to **<http://hello-flask-#-course-training-#.rahtiapp.fi/kitten>**, where # is your training account number and
     you should see a kitten.
 
     *Note*: It does not matter in which order you mount and copy, as long as you
@@ -64,10 +65,10 @@ This exercise comprises of three parts:
 
     ```
 
-    You can create the secret by using the command line interface:
+    You can create the configmap by using the command line interface:
 
     ```bash
-    $ echo '{"greeting": "Custon Hello from custom.json"}' >custom.json
+    $ echo '{"greeting": "Custom Hello from custom.json"}' >custom.json
     $ oc create configmap custom.json --from-file=custom.json
     ```
 
