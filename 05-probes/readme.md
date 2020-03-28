@@ -41,7 +41,7 @@ your pod.
 `watch oc get pod probe-tests`
 
 *Tip #3*: The GNU coreutils tool *`cat <filename>`* returns 0 if the
-<filename> exists and everything went fine.
+`<filename>` exists and everything went fine.
 
 ## Cleanup
 
