@@ -98,7 +98,7 @@ pod/hello-openshift-1-gtt59   1/1       Running   0          21m
     selector:
       app: hello-openshift
       deploymentconfig: hello-openshift
-```
+
 
 ## Route
 
