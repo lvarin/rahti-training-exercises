@@ -10,8 +10,6 @@ This exercise comprises of three parts:
 
 1.  Create and mount a persistent volume with this **[picture](https://rahti-course-nov-2019.a3s.fi/kitten.jpg)**:
 
-    ![https://rahti-course-nov-2019.a3s.fi/kitten.jpg](https://rahti-course-nov-2019.a3s.fi/kitten.jpg){ width=50% }
-
     to the application `hello-flask-#` made in **exercise 4** at `/opt/app-root/src/static`.
 
     First you need to create the PersistentVolumeClaim (PVC), you can use the CLI using:
