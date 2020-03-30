@@ -20,7 +20,7 @@ Locate the project in the web console and verify that it exists using the `oc` t
 2. Create a project:
 
    ```bash
-   $ oc new-project course-training-<number> --description="csc_project:2001316
+   $ oc new-project course-training-<number> --description="csc_project:2001316"
    ```
 
 3. The project should be now visible on the web console and it should get
