@@ -31,7 +31,7 @@ $ oc create configmap nginx-config --from-file=cfg/default.conf --from-file=cfg/
 * Create an ImageStream object named `my-openshift-nginx` and set the output of your BuildConfig to ImageStreamTag `my-openshift-nginx:latest`.
 
 ```bash
-$ cat Dockerfile | oc new-build my-openshift-nginx --dry-run -o yaml --allow-missing-imaes -D - > bcs.yaml
+$ cat Dockerfile | oc new-build nginx:mainline-alpine --dry-run -o yaml --allow-missing-images -D - > bcs.yaml
 ```
 
 ## Actual website from Github
