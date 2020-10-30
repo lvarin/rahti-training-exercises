@@ -1,0 +1,15 @@
+# hello-service.yaml
+kind: Service
+apiVersion: v1
+metadata:
+  name: hello-service
+spec:
+  ports:
+    - name: 8888-8888
+      port: 8888
+      protocol: TCP
+      targetPort: 8888
+  selector:
+    app: hello-pod
+  type: LoadBalancer
+status: {}

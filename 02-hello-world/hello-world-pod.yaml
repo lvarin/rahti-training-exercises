@@ -1,8 +1,0 @@
-kind: Pod
-apiVersion: v1
-metadata:
-  name: hello-pod
-spec:
-  containers:
-  - name: hello-container
-    image: hello-world
