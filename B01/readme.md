@@ -10,8 +10,7 @@ In this exercise we will add persistent storage to the application.
 
 * Back in the deployment page, use the "Add storage" page to mount the volume you just created to the `/static` folder.
 
-* Use the webinterface terminal to down load a JPG photo to the volume. (There a
-re other ways to upload data to a volume, but that is a topic for another time)
+* Use the webinterface terminal to down load a JPG photo to the volume. (There are other ways to upload data to a volume, but that is a topic for another time)
 
 <pre><code>wget https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/1280px-Juvenile_Ragdoll.jpg \
     -O /static/1280px-Juvenile_Ragdoll.jpg
